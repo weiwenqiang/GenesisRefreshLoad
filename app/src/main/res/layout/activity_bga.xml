@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bga_normal_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NormalListViewActivity" />
+
+    <Button
+        android:id="@+id/bga_normal_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NormalRecyclerViewActivity" />
+
+    <Button
+        android:id="@+id/bga_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScrollViewActivity" />
+
+    <Button
+        android:id="@+id/bga_sticky_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StickyNavActivity" />
+
+    <Button
+        android:id="@+id/bga_swipe_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwipeListViewActivity" />
+
+    <Button
+        android:id="@+id/bga_swipe_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwipeRecyclerViewActivity" />
+
+    <Button
+        android:id="@+id/bga_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPagerActivity" />
+
+    <Button
+        android:id="@+id/bga_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebViewActivity" />
+
+</LinearLayout>

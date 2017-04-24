@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wwq.genesisrefreshload">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:replace="android:icon, android:theme"
+        android:name="com.wwq.genesisrefreshload.views.TkApplication"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.wwq.genesisrefreshload.pulltorefresh.XListViewActivity" />
+        <activity android:name="com.wwq.genesisrefreshload.views.TwinklingActivity" />
+
+        <activity android:name="com.wwq.genesisrefreshload.views.MusicActivity" />
+        <activity android:name="com.wwq.genesisrefreshload.views.FoodActivity" />
+        <activity android:name="com.wwq.genesisrefreshload.views.ScienceActivity" />
+        <activity android:name="com.wwq.genesisrefreshload.views.PhotoActivity" />
+        <activity android:name="com.wwq.genesisrefreshload.views.StoryActivity" />
+        <activity android:name="com.wwq.genesisrefreshload.views.WebActivity" />
+
+        <activity android:name="com.wwq.genesisrefreshload.activity.AnimRFRecyclerActivity" />
+        <activity android:name="com.wwq.genesisrefreshload.activity.PullLoadMoreActivity" />
+
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.StickyNavActivity"/>
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.NormalRecyclerViewActivity"/>
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.NormalListViewActivity"/>
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.SwipeRecyclerViewActivity"/>
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.SwipeListViewActivity"/>
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.ScrollViewActivity"/>
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.WebViewActivity"/>
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.ViewPagerActivity"/>
+
+        <activity android:name="com.wwq.genesisrefreshload.bgarefresh.BGARefreshActivity" />
+    </application>
+
+</manifest>
